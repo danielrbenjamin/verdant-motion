@@ -1,0 +1,14 @@
+{
+  "name": "@verdant-motion/ez-tree-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local EZ Tree fork with branch and leaf ownership metadata for Verdant Motion",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "peerDependencies": {
+    "three": "^0.169.0"
+  }
+}

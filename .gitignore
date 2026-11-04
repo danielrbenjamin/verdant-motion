@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules/
+dist/
+.npm-cache/
+coverage/
+*.tsbuildinfo
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local
+*.log
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+.idea/
+
+# Do not reintroduce full upstream checkouts
+/ez-tree/
+
+.ez-tree-update/
